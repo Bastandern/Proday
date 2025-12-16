@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/calendarDayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        tools:text="22" />
+
+    <TextView
+        android:id="@+id/calendarDayLunarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#555555"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="廿二" />
+
+</LinearLayout>
